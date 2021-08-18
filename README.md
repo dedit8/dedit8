@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @dedit8
+- 👋 Hi, I’m @dedit8 guillermo pegoraro
 - 👀 I’m interested in front end
 - 🌱 I’m currently learning html css boostrap
 - 💞️ I’m looking to collaborate on frontdeveloper
