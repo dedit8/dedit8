@@ -13,7 +13,6 @@
           <!DOCTYPE html>
           <html lang="en" dir="ltr">
             <head>
-              <link rel="stylesheet" href="css/pedido.css">
             </head>
             <body>
               <div class="cuerpo_ped">
@@ -27,7 +26,17 @@
                     <head>
                       <meta charset="UTF-8">
                       <link rel="stylesheet" href="pedido_adm.css">
-
+                      <style media="screen">
+                      .button_small-check, .button_small-del{
+                        width: 2rem;
+                        height: 8rem;
+                        padding: 6rem;
+                          margin: 0.1rem 0.3rem;
+                          border: none;
+                          border-radius: 100px;
+                          transition: 10ms;
+                      }
+                      </style>
                       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
                       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
                       <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
@@ -43,6 +52,7 @@
                                   <th class="id_ped"></th>
 
                                   <th>dni</th>
+                                  <th>medico</th>
                                   <th>dia</th>
                                   <th>hora</th>
                                   <th>atendido</th>
